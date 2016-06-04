@@ -1,0 +1,35 @@
+baseurl = "https://hyperthese.net/"
+languageCode = "en-us"
+title = "Hyperthese"
+theme = "ghostwriter"
+copyright = "Rémy Sanchez"
+disqusShortname = "hyperthese"
+
+[Author]
+    name = "Xowap"
+    profile = "https://twitter.com/Xowap"
+
+[Taxonomies]
+    tags = "tags"
+
+[Params]
+    intro = true
+    headline = "My open-source notebook"
+    description = "Hi! I'm Rémy (aka Xowap) and I think many things about software development and the tech world. This blog is for sharing them."
+    github = "https://github.com/Xowap"
+    linkedin = "https://fr.linkedin.com/in/remysanchez"
+    twitter = "https://twitter.com/Xowap"
+    stackoverflow = "http://stackoverflow.com/users/1804989/xowap"
+
+[Permalinks]
+    post = "/:year-:month-:day/:filename/"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/page/about/"
+    weight = 4
