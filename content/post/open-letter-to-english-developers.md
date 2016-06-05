@@ -4,6 +4,7 @@ date = "2016-06-04T02:49:07+02:00"
 description = "From a developer speaking another language with a latin alphabet, some things are frustrating."
 tags = []
 title = "Open letter to developers speaking only English"
+draft = true
 
 +++
 
