@@ -1,6 +1,7 @@
 build:
 	rm -fr dist
 	hugo -d dist
+	find dist -name '*.html' -exec sed -i s/xxxxxxxxxxnopexxxxxxxxxxx/hyperthese2/g '{}' ';'
 
 deploy: check-env build
 	mkdir -p $(DEPLOY_DIR)
