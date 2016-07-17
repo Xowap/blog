@@ -8,6 +8,9 @@ deploy: check-env build
 	echo "$(DEPLOY_DIR)"
 	rsync -rtv --delete dist/ "$(DEPLOY_DIR)/"
 
+dev:
+	hugo server -D
+
 check-env:
 ifndef DEPLOY_DIR
 	$(error DEPLOY_DIR is undefined)

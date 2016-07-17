@@ -1,6 +1,6 @@
 +++
 author = "Xowap"
-date = "2016-06-24T18:48:53+02:00"
+date = "2016-07-17T22:37:48+02:00"
 description = "The technical architecture behind a fully automated deployment of a static blog"
 tags = ["deployment", "automation", "blog"]
 title = "How to deploy this blog"
@@ -88,7 +88,7 @@ terms of configuration, the file looks like:
     DEPLOY_DIR = "/blog/www"
 
 There is no sorcery here. When GitHub triggers the post-push webhook, it will call the URL I gave
-to him with various information about the repository being pushed. `gowebmake` clones this
+to it with various information about the repository being pushed. `gowebmake` clones this
 repository, goes inside and runs the `Makefile` as configured.
 
 There is a secret you have to configure. It's an arbitrary value that you'll have to pass to GitHub
@@ -160,8 +160,8 @@ signed by GitHub (hence the secret in the configuration).
 
 ## GitHub Configuration
 
-Simply go to the webhook section of your repo, and add yours to the list. You'll be asked a secret,
-use the one you've put in your `gowebmake` configuration.
+Simply go to the webhook section of your repo's settings, and add yours to the list. You'll be asked
+a secret, use the one you've put in your `gowebmake` configuration.
 
 If you ever need to debug, GitHub lists all the calls made to your hook and allows you to re-send
 them if needed.
