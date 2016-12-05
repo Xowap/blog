@@ -17,7 +17,7 @@ whose founders re-created a company named
 [Viv that got bought by Samsung](https://news.samsung.com/global/samsung-to-acquire-viv-the-next-generation-artificial-intelligence-platform).
 And let's not forget Amazon's Alexa nor Microsoft's Cortana.
 
-Yet, what is NLP, why it won't help you and what can you do instead? This is what my and my partner
+Yet, what is NLP, why it won't help you and what can you do instead? This is what me and my partner
 [Geoffroy](http://www.rencontres-numerique.fr/speaker/geoffroy-de-ribou/) were explaining at the
 [Rencontres Nationales du Numérique](http://www.rencontres-numerique.fr/) in Poitiers last week and
 here's a textual wrap-up of our bit on NLP.
