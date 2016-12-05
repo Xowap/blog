@@ -96,7 +96,7 @@ politics **is not** in your scope.
 
 ## Non-verbal communication
 
-The other good news is that your user don't actually want to formulate full sentences, especially
+The other good news is that your users don't actually want to formulate full sentences, especially
 when they knows that the possibilities are closed down to a very small set.
 
 A key rule of UX is not to disappoint the user with unexpected actions. Here's precisely what
